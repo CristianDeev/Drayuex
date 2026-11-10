@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Drayuex Legacy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Cinzel Decorative: elegante, dark, se ve perfecta a gran tamaño -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&family=Cormorant+SC:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/intro.css">
+</head>
+<body>
+
+  <div id="intro" class="intro-container">
+    <video
+      id="introVideo"
+      class="intro-video"
+      src="videos/0222.mp4"
+      preload="auto"
+      playsinline
+      muted
+    ></video>
+
+    <!-- Overlay oscuro para que el texto respire sobre el video -->
+    <div class="intro-dimmer"></div>
+
+    <div class="intro-overlay">
+      <div class="intro-title">Drayuex Legacy</div>
+      <div class="intro-subtitle">
+        Streetwear oscuro y exclusivo para los que viven la noche.
+      </div>
+      <button id="enterBtn" class="btn-primary">
+        Entrar a la tienda
+      </button>
+    </div>
+  </div>
+
+  <script src="js/intro.js"></script>
+</body>
+</html>

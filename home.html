@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Drayuex Legacy - Inicio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Bebas+Neue&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+
+<!-- ══════════════════════ HEADER -->
+<header class="header">
+  <div class="logo">Drayuex Legacy</div>
+  <nav>
+    <a href="products.html">Colección</a>
+    <a href="products.html?cat=hombre">Hombre</a>
+    <a href="products.html?cat=mujer">Mujer</a>
+    <a href="products.html?cat=accesorios">Accesorios</a>
+  </nav>
+  <button class="header-notify-btn" onclick="document.getElementById('notify-section').scrollIntoView({behavior:'smooth'})">Notifícame</button>
+</header>
+
+<!-- ══════════════════════ HERO -->
+<section class="hero">
+  <div class="hero-bg-text" aria-hidden="true">DRAYUEX</div>
+
+  <div class="hero-text">
+    <span class="hero-eyebrow">Drop 01 · 2026</span>
+    <h1>Ediciones<br>Limitadas</h1>
+    <p>Piezas oscuras, agresivas y exclusivas.<br>Diseñadas para la calle.</p>
+    <div class="hero-cta">
+      <a href="products.html" class="btn-primary">Ver colección</a>
+      <button class="btn-outline" id="nextDropBtn">Próximo drop</button>
+    </div>
+  </div>
+
+  <div class="hero-card">
+    
+    <div class="hero-card-tag">Drop 01 / 2026 ...</div>
+    <div class="hero-card-badge">Stock limitado</div>
+    <div class="hero-card-main" style="position:relative; overflow:hidden;">
+  <img 
+    src="assets/1.jpeg" 
+    alt="Hoodie Phantom"
+    style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; opacity:0.4; border-radius:1.4rem;"
+  >
+  <div class="hero-card-main-text" style="position:relative; z-index:1;">
+    <h2>Hoodie Phantom</h2>
+    <p>Hoodie oversize negro carbón, detalles gráficos blancos.</p>
+  </div>
+  <div class="hero-card-main-price" style="position:relative; z-index:1;">
+    <span>Desde</span>
+    <strong>$xxx.xxx</strong>
+  </div>
+</div>
+    <div class="hero-card-footer">
+      <span>Envíos a todo el país</span>
+      <span>Colección exclusiva online</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ TICKER -->
+<div class="ticker-wrap" aria-hidden="true">
+  <div class="ticker">
+    <span>Drop 01 — Drayuex Legacy</span><span>·</span>
+    <span>Stock limitado</span><span>·</span>
+    <span>Streetwear oscuro</span><span>·</span>
+    <span>Envíos a todo el país</span><span>·</span>
+    <span>Colección exclusiva online</span><span>·</span>
+    <span>Drop 01 — Drayuex Legacy</span><span>·</span>
+    <span>Stock limitado</span><span>·</span>
+    <span>Streetwear oscuro</span><span>·</span>
+    <span>Envíos a todo el país</span><span>·</span>
+    <span>Colección exclusiva online</span><span>·</span>
+  </div>
+</div>
+
+<!-- ══════════════════════ COUNTDOWN -->
+<section class="countdown-section">
+  <div class="countdown-inner">
+    <p class="countdown-label">Drop 02 en</p>
+    <div class="countdown-grid">
+      <div class="countdown-unit">
+        <span class="countdown-num" id="cd-days">00</span>
+        <span class="countdown-name">Días</span>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <span class="countdown-num" id="cd-hours">00</span>
+        <span class="countdown-name">Horas</span>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <span class="countdown-num" id="cd-minutes">00</span>
+        <span class="countdown-name">Min</span>
+      </div>
+      <div class="countdown-sep">:</div>
+      <div class="countdown-unit">
+        <span class="countdown-num" id="cd-seconds">00</span>
+        <span class="countdown-name">Seg</span>
+      </div>
+    </div>
+    <p class="countdown-sub">El Drop 02 está en camino. No te quedes sin el tuyo.</p>
+  </div>
+</section>
+
+<!-- ══════════════════════ FEATURED -->
+<section class="featured-section">
+  <div class="section-header">
+    <h2 class="section-title">Drop 01 <span>· Piezas destacadas</span></h2>
+    <a href="products.html" class="section-link">Ver todo →</a>
+  </div>
+
+  <div class="featured-grid">
+    <a href="products.html" class="featured-card">
+      <div class="featured-img-wrap">
+        <img src="https://images.unsplash.com/photo-1556821840-3a63f15732ce?w=600&q=80" alt="Hoodie Phantom" class="featured-img">
+        <span class="featured-tag">Nuevo</span>
+      </div>
+      <div class="featured-body">
+        <span class="featured-name">Hoodie Phantom</span>
+        <span class="featured-price">$xxx.xxx</span>
+      </div>
+    </a>
+
+    <a href="products.html" class="featured-card">
+      <div class="featured-img-wrap">
+        <img src="assets/1.jpeg" alt="HOODIE PHANTOM" class="featured-img">
+        <span class="featured-tag">Essential</span>
+      </div>
+      <div class="featured-body">
+        <span class="featured-name">HOODIE PHANTOM</span>
+        <span class="featured-price">$xxx.xxx</span>
+      </div>
+    </a>
+
+    <a href="products.html" class="featured-card">
+      <div class="featured-img-wrap">
+        <img src="assets/2.jpeg" alt="HOODIE SIGNATURE" class="featured-img">
+        <span class="featured-tag">Drop</span>
+      </div>
+      <div class="featured-body">
+        <span class="featured-name">HOODIE SIGNATURE</span>
+        <span class="featured-price">$xxx.xxx</span>
+      </div>
+    </a>
+
+    <a href="products.html" class="featured-card">
+      <div class="featured-img-wrap">
+        <img src="assets/1.jpeg" alt="HOODIE PHANTOM" class="featured-img">
+        <span class="featured-tag">Street</span>
+      </div>
+      <div class="featured-body">
+        <span class="featured-name">HOODIE PHANTOM</span>
+        <span class="featured-price">$xxx.xxx</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+<!-- ══════════════════════ ABOUT -->
+<section class="about-section">
+  <div class="about-visual">
+    <img src="assets/portada.png" alt="Drayuex Legacy" class="about-img">
+    <div class="about-img-label" aria-hidden="true">EST. 2026</div>
+  </div>
+  <div class="about-text">
+    <span class="section-eyebrow">La marca</span>
+    <h2>Nació en la oscuridad.<br>Vive en la calle.</h2>
+    <p>Drayuex Legacy no es moda. Es una declaración. Cada pieza se diseña con una sola obsesión: que quien la use sienta que pertenece a algo diferente.</p>
+    <p>Streetwear nocturno. Estética agresiva, calidad premium, drops que desaparecen en horas.</p>
+    <a href="products.html" class="btn-primary">Explorar colección</a>
+  </div>
+</section>
+
+<!-- ══════════════════════ GALLERY -->
+<section class="gallery-section">
+  <div class="section-header">
+    <h2 class="section-title">Looks <span>· En la calle</span></h2>
+    <a href="products.html" class="section-link">Ver colección →</a>
+  </div>
+  <div class="gallery-grid">
+    <div class="gallery-item gallery-item--big">
+      <img src="assets/look1.png" alt="Look 1">
+      <div class="gallery-overlay"><span>Look 01</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="assets/look2.png" alt="Look 2">
+      <div class="gallery-overlay"><span>Look 02</span></div>
+    </div>
+    <div class="gallery-item">
+      <img src="assets/look3.png" alt="Look 3">
+      <div class="gallery-overlay"><span>Look 03</span></div>
+    </div>
+    <div class="gallery-item gallery-item--wide">
+      <img src="assets/look4.png" alt="Look 4">
+      <div class="gallery-overlay"><span>Look 04</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════ NOTIFY -->
+<section class="notify-section" id="notify-section">
+  <div class="notify-inner">
+    <span class="section-eyebrow">Drop 02 — Próximamente</span>
+    <h2>Sé el primero<br>en enterarte.</h2>
+    <p>Deja tu correo y te avisamos antes que nadie cuando caiga el siguiente drop.</p>
+    <form class="notify-form" id="notifyForm">
+      <input type="email" class="notify-input" placeholder="tu@correo.com" required>
+      <button type="submit" class="btn-primary">Notifícame</button>
+    </form>
+    <span class="notify-disclaimer">Sin spam. Solo drops reales.</span>
+  </div>
+</section>
+
+<!-- ══════════════════════ SOCIAL -->
+<section class="social-section">
+  <div class="section-header center">
+    <h2 class="section-title">Síguenos <span>· @drayuexlegacy</span></h2>
+  </div>
+  <div class="social-links">
+    <a href="https://www.instagram.com/drayuex_legacy/" class="social-card">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+      <span>Instagram</span>
+    </a>
+    <a href="#" class="social-card">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V9.03a8.16 8.16 0 004.77 1.52V7.1a4.85 4.85 0 01-1-.41z"/></svg>
+      <span>TikTok</span>
+    </a>
+    <a href="#" class="social-card">
+      <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      <span>Facebook</span>
+    </a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-logo">Drayuex Legacy</div>
+  <p class="footer-copy">© 2026 Drayuex Legacy · Todos los derechos reservados</p>
+  <div class="footer-links">
+    <a href="#">Términos</a>
+    <a href="#">Privacidad</a>
+    <a href="#">Contacto</a>
+  </div>
+</footer>
+
+<!-- EmailJS: para el correo de agradecimiento de "Notifícame" -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  emailjs.init({ publicKey: "bkEEFCzOwQLM8nYSp" });
+</script>
+
+<script src="js/toast.js"></script>
+<script src="js/home.js"></script>
+</body>
+</html>

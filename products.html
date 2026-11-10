@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Drayuex Legacy - Colección</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&family=Bebas+Neue&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/products.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="logo">Drayuex Legacy</div>
+  <nav>
+    <a href="home.html">Inicio</a>
+    <a href="products.html">Colección</a>
+    <a href="products.html?cat=hombre">Hombre</a>
+    <a href="products.html?cat=mujer">Mujer</a>
+    <a href="products.html?cat=accesorios">Accesorios</a>
+  </nav>
+</header>
+
+<section id="products" class="products">
+
+  <div class="products-header">
+    <div>
+      <h2>Drop 01 · Drayuex Legacy</h2>
+      <p>La colección anterior queda en pausa. El Drop 01 arranca con piezas para mujer.</p>
+    </div>
+    <span class="products-count">12 piezas</span>
+  </div>
+
+  <div class="products-filter">
+    <button class="filter-btn" data-filter="todos">Todos</button>
+    <button class="filter-btn" data-filter="hombre">Hombre</button>
+    <button class="filter-btn" data-filter="mujer">Mujer</button>
+    <button class="filter-btn" data-filter="accesorios">Accesorios</button>
+  </div>
+
+  <div class="products-grid">
+
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <!--
+          IMAGEN: reemplaza el src por la URL de tu foto real.
+          Tamaño recomendado: 800x1000px, formato JPG o WEBP.
+          Ejemplo: src="images/hoodie-phantom.jpg"
+        -->
+        <img
+          src="assets/1.jpeg"
+          class="product-image"
+          alt="Hoodie Phantom"
+          loading="lazy"
+        >
+        <span class="product-tag">Nuevo</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Hoodie Phantom</h3>
+        <p class="product-desc">Hoodie oversize negro con arte blanco glitch.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <!--
+          IMAGEN: reemplaza el src por tu foto.
+          Ejemplo: src="images/crewneck-nightfall.jpg"
+        -->
+        <img
+          src="assets/1.jpeg"
+          class="product-image"
+          alt="HOODIE PHANTOM"
+          loading="lazy"
+        >
+        <span class="product-tag">Essential</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">HOODIE PHANTOM</h3>
+        <p class="product-desc">Hoodie negra con líneas reflectivas inspiradas en la energía nocturna.
+Diseño urbano con estética futurista.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <!--
+          IMAGEN: src="images/tee-void.jpg"
+        -->
+        <img
+          src="assets/2.jpeg"
+          class="product-image"
+          alt="HOODIE SIGNATURE"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">HOODIE SIGNATURE</h3>
+        <p class="product-desc">Hoodie premium con patrón texturizado y logo Drayuex frontal.
+Diseño limpio con identidad de marca.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="accesorios">
+      <div class="product-image-wrapper">
+        <!--
+          IMAGEN: src="images/cap-eclipse.jpg"
+        -->
+        <img
+          src=""
+          class="product-image"
+          alt="Cap Eclipse"
+          loading="lazy"
+        >
+        <span class="product-tag">Accesorio</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Cap Eclipse</h3>
+        <p class="product-desc">Gorra negra con logo bordado.</p>
+        <div class="product-meta">
+          <span class="product-price">$xx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="accesorios">
+      <div class="product-image-wrapper">
+        <!--
+          IMAGEN: src="images/mask-revenant.jpg"
+        -->
+        <img
+          src=""
+          class="product-image"
+          alt="Mask Revenant"
+          loading="lazy"
+        >
+        <span class="product-tag">Highlight</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Mask Revenant</h3>
+        <p class="product-desc">Pasamontañas negro minimal con detalle frontal.</p>
+        <div class="product-meta">
+          <span class="product-price">$xx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <!-- ══════════ DROP 01 · MUJER ══════════ -->
+    <article class="product-card" data-cat="mujer">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/Conjunto%201.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center;"
+          alt="Conjunto 01"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Conjunto 01</h3>
+        <p class="product-desc">Conjunto rojo de la primera línea femenina Drayuex Legacy.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="mujer">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/Conjunto%202.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center;"
+          alt="Conjunto 02"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Conjunto 02</h3>
+        <p class="product-desc">Conjunto negro de la primera línea femenina Drayuex Legacy.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <!-- ══════════ DROP 01 · CAMISAS ══════════ -->
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/Cam%201.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center;"
+          alt="Camisa Legacy 01"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Camisa Legacy 01</h3>
+        <p class="product-desc">Camisa oscura con gráficos y logo Drayuex.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/Cam%202.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center;"
+          alt="Camisa Legacy 02"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Camisa Legacy 02</h3>
+        <p class="product-desc">Camisa negra desgastada con detalles bordados.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <!-- ══════════ DROP 01 · PANTS ══════════ -->
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/pants.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center;"
+          alt="Pants Legacy 01"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Pants Legacy 01</h3>
+        <p class="product-desc">Denim desgastado con lavado vintage.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+    <article class="product-card" data-cat="hombre">
+      <div class="product-image-wrapper">
+        <img
+          src="assets/pants%202.jpeg"
+          class="product-image"
+          style="object-fit: contain; object-position: center; box-sizing: border-box; padding: 9%;"
+          alt="Pants Legacy 02"
+          loading="lazy"
+        >
+        <span class="product-tag">Drop 01</span>
+        <div class="product-image-overlay"></div>
+      </div>
+      <div class="product-body">
+        <h3 class="product-name">Pants Legacy 02</h3>
+        <p class="product-desc">Denim negro desgastado con detalles bordados.</p>
+        <div class="product-meta">
+          <span class="product-price">$xxx.xxx</span>
+          <span class="product-status product-status--limited">Disponible</span>
+        </div>
+        <button class="product-btn">Ver producto</button>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-logo">Drayuex Legacy</div>
+  <p class="footer-copy">© 2026 Drayuex Legacy · Todos los derechos reservados</p>
+  <div class="footer-links">
+    <a href="#">Términos</a>
+    <a href="#">Privacidad</a>
+    <a href="#">Contacto</a>
+  </div>
+</footer>
+
+<script src="js/toast.js"></script>
+<script src="js/products.js"></script>
+</body>
+</html>
